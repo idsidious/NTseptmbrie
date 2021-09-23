@@ -1,0 +1,264 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin:0px}
+
+.navbar{
+    background-color: transparent;
+    margin-left: 150px;
+    font-family: Arial;
+    
+}
+.navbar a{
+    text-decoration: none;
+    color:white;;
+    padding:22px 18px;
+}
+.leftp{
+    float: left;
+    margin-left: 5%;
+    margin-top:20px;
+
+}
+.leftp img{
+    width:50%;
+}
+
+.rightp{
+    float: right;
+    margin-right: 10%;
+    margin-top: 8%;   
+    width:350px;
+    padding: 20px;
+}
+
+.a1{
+    border: solid 2px rgb(255, 26, 167);
+    border-radius: 40px;
+    background-color: rgb(255, 26, 167 );
+    padding: 5px 10px;
+    color: white;
+    text-decoration: none;
+}
+
+.a2{
+    border: solid 2px rgb(255, 26, 167);
+    border-radius: 40px;
+    padding: 5px 10px;
+    text-decoration: none;
+    color:rgb(255, 26, 167);
+    font-size: 18px;
+    
+}
+
+.wa{
+    float: left;
+    display: block;
+    position: absolute;
+    margin-top: 30%;
+    margin-left: 30px;
+    padding: 20px;
+    background-color: green;
+    border: solid 4px white;
+    border-radius: 100px;
+}
+
+.p1{
+    word-wrap: break-word;
+    color:white;
+    letter-spacing: 5px;
+    text-indent: 15px;
+    font-size: 20px;
+}
+.divEx1{
+    height:650px;
+    background-image: linear-gradient(to right,#5b0a8a,rgb(199, 3, 224));
+    padding: 20px;
+}
+
+/* exercitiul2*/
+
+.divEx2{
+    margin-top: 100px;
+    background-color: white;
+}
+
+.header{
+     color:purple;
+     margin:auto;
+     text-align: center;
+     font-family: Arial, Helvetica, sans-serif
+}
+.hrEx2{
+    background-color: purple;
+    width: 15%;
+    height: 3px;
+}
+.paragraf{
+    text-align: center;
+    padding: 20px;
+    align-items: center;
+
+}
+.p2{
+    width:75%;
+    margin-left: 200px;
+}
+.divmare{
+    display: inline-flex;
+    padding: 20px 70px;
+    justify-content: center;
+    align-items: center;
+   
+}
+.divmare img{
+    transition: 2s;
+   
+}
+.divmare img:hover{
+    transform:scaleX(-1);
+    cursor: pointer;
+   
+}
+.divmarep{
+    text-align: center;
+    color: purple;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 20px;
+    padding-right: 20px;
+    width:50%;
+    margin-left:40px;
+   
+}
+.divmarep2{
+    text-align: center;
+    width: 60%;
+    padding: 10px;
+    margin-left: 20px;
+}
+
+/* exercitiul3*/
+
+.hrEx3{
+    background-color: rgb(216, 6, 135);
+    width: 7%;
+    height: 3px;
+}
+.divEx3{
+    background-image: linear-gradient(#ffffff, #660066);
+    display: inline-flex;
+    justify-content:space-evenly;
+    align-content: center;
+    width: 75%;
+    height: 300px;
+    margin-left: 200px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.divEx3 img{
+    width: 300px;
+    height:250px;
+}
+/* exercitiul4*/
+
+.divEx4{
+    display: inline-flex;
+    justify-content:space-evenly;
+    align-content: center;
+    flex-direction: row-reverse;
+    margin-top: 30px;
+    width: 100%;
+    position: relative;
+  
+   
+}
+
+.divEx4 img{
+    width: 60%;
+    height:150px;
+    padding: 20px;
+    border-radius: 100px;
+    background-image: linear-gradient(rgb(192, 7, 152),rgb(233,16,125));
+    
+}
+.divEx4-1{
+    padding-left: 70px;
+    width:20%;
+}
+.smalicon{
+    border:1px solid rgb(216, 6, 135);
+    border-radius:90px;
+    position:absolute;
+    margin-left: 90px;
+    margin-top: -10px;
+    background-color: #ffffff;
+    padding: 5px;
+    width:30px;
+    color:rgb(131, 127, 127);
+    height:30px;
+    font-size: 18px;
+    text-align: center;
+   
+}
+.hrEx4{
+    background-color: rgb(216, 6, 135);
+    width: 7%;
+    height: 3px;
+}
+.pex4{
+    border:dotted 2px rgb(216, 6, 135);
+    text-align: center;
+    word-wrap: break-word;
+    height:50px;
+    width:70%;
+    padding: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* exercitiul5*/
+
+.divEx5{
+    background-image: linear-gradient(#2e013d, #6d036d);
+    width:100%;
+    height:400px;
+    margin-top: 50px;
+
+}
+.divEx5left{
+    float: left;
+    margin-top: 50px;
+  
+}
+.divEx5left img{
+    width: 300px;
+    height: 300px;
+    transform: scaleX(-1);
+    margin-left: 70px;
+    position: absolute;
+}
+
+.divEx5right{
+    float: right;
+
+}
+.pex5{
+    color:#ffffff;
+    font-family: Arial, Helvetica, sans-serif;
+    position: relative;
+    margin: 40px 200px 0px 0px;
+    font-size: 22px;
+}
+.pex5-1{
+    color:#ffffff;
+    font-family: Arial, Helvetica, sans-serif;
+    word-wrap: break-word;
+    width: 30%;
+    margin-left: 20px;
+}
+.divEx5right2{
+    display:inline-flex;
+    margin-top: 30px;  
+}
+
+/* exercitiul6*/
